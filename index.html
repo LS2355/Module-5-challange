@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/Scheduler.js"></script>    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  
+  <div class="container">
+
+    <!-- Timeblocks go here -->
+    <div class="TimeblocksContainer">  
+      
+      <div class="time-block row" id="9AM">
+        <div class="col-1 hour"><h4>9AM</h4></div>
+        <div class="col-10 past textarea "><textarea class="col-12 "></textarea></div>
+        <div class="col-1 saveBtn "><i class="bi bi-save2"></i></div>
+      </div>
+      <div class="time-block row" id="10AM">
+        <div class="col-1 hour"><h4>10AM</h4></div>
+        <div class="col-10 past textarea "><textarea class="col-12 "></textarea></div>
+        <div class="col-1 saveBtn "><i class="bi bi-save2"></i></div>
+      </div>
+      <div class="time-block row" id="11AM">
+        <div class="col-1 hour"><h4>11AM</h4></div>
+        <div class="col-10 past textarea "><textarea class="col-12 "></textarea></div>
+        <div class="col-1 saveBtn "><i class="bi bi-save2"></i></div>
+      </div>
+      <div class="time-block row" id="12AM">
+        <div class="col-1 hour"><h4>12AM</h4></div>
+        <div class="col-10 past textarea "><textarea class="col-12 "></textarea></div>
+        <div class="col-1 saveBtn "><i class="bi bi-save2"></i></div>
+      </div>
+      <div class="time-block row">
+        <div class="col-1 hour"><h4>1PM</h4></div>
+        <div class="col-10 present textarea" id="1PM"><textarea class="col-12"></textarea></div>
+        <div class="col-1 saveBtn"><i class="bi bi-save2"></i></div>
+      </div>
+      <div class="time-block row">
+        <div class="col-1 hour"><h4>2PM</h4></div>
+        <div class="col-10 future textarea" id="2PM"><textarea class="col-12"></textarea></div>
+        <div class="col-1 saveBtn"><i class="bi bi-save2"></i></div>
+      </div>
+      <div class="time-block row">
+        <div class="col-1 hour"><h4>3PM</h4></div>
+        <div class="col-10 future textarea" id="3PM"><textarea class="col-12"></textarea></div>
+        <div class="col-1 saveBtn"><i class="bi bi-save2"></i></div>
+      </div>
+      <div class="time-block row">
+        <div class="col-1 hour"><h4>4PM</h4></div>
+        <div class="col-10 future textarea" id="4PM"><textarea class="col-12"></textarea></div>
+        <div class="col-1 saveBtn"><i class="bi bi-save2"></i></div>
+      </div>      
+      <div class="time-block row">
+        <div class="col-1 hour"><h4>5PM</h4></div>
+        <div class="col-10 future textarea" id="5PM"><textarea class="col-12"></textarea></div>
+        <div class="col-1 saveBtn"><i class="bi bi-save2"></i></div>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
